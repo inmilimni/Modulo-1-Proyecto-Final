@@ -29,6 +29,49 @@
           url(https://http2.mlstatic.com/ui/webfonts/v3.0.0/proxima-nova/proximanova-semibold.woff)
             format("woff");
       }
+      #nav-categs-edtecnica1 *{
+        box-sizing: border-box;
+      }
+      #nav-categs-edtecnica1{
+        display: none;
+        
+      }
+      #nav-categs-edtecnica1 ul{
+      margin: 0;
+      list-style: none;
+      }
+   .nav-categs-departments{
+    position: relative;
+    display: block;
+    float: left;
+    background-color: #333;
+    padding: 22px 0;
+    border-radius: 4px;
+   }
+
+#nav-categs-edtecnica:hover + #nav-categs-edtecnica1 {
+  border-radius: 4px;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.3);
+  box-sizing: border-box;
+  font-family: "Proxima Nova", -apple-system, "Helvetica Neue", Helvetica, "Roboto", Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  margin: 9px 0 0 -10px;
+  max-width: 1200px;
+  position: absolute;
+  z-index: 10000;
+  display: flex;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#nav-categs-edtecnica1 a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: #eee;
+}
+
     .cookie-consent-banner-opt-out {
       align-items: center;
       bottom: 0;
